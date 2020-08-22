@@ -19,6 +19,7 @@ render() {
   const {count}=this.props
   return(
     <div className="container">
+        <h1 className="title"> BHIC </h1>
         <div className="container-count">
             <h3>Count:</h3>
             <h1>{count}</h1>
