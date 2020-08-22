@@ -24,8 +24,8 @@ render() {
             <h1>{count}</h1>
         </div>
         <div class="buttons">
-          <Button action={this.handleBtnActionIncrement} buttonTitle = "Add" />
-          <Button action={this.handleBtnActionDecrement} buttonTitle = "Remove" />
+          <Button action={this.handleBtnActionIncrement} buttonTitle = "+" />
+          <Button action={this.handleBtnActionDecrement} buttonTitle = "-" />
         </div>
       </div>
   )
